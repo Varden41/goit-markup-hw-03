@@ -1,0 +1,224 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --background-color: #FFFFFF;
+    --background-color-special: #2F303A;
+    --additionat-text-color: #FFFFFF;
+    --portfolio-button-background: #F5F4FA;
+    --primary-botton-hover :#188CE8;
+    --our-team-bg-color :#F5F4FA;
+    --footer-adress-color :rgba(100%, 100%, 100%, 60%);
+}
+
+/* Body */
+.page {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+/* Header */
+.logo {
+    color: var(--accent-text-color);
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.list {
+    list-style: none;
+}
+
+.studio {
+    color: #000000;
+}
+
+/* Page-nav */
+.page-nav .link {
+    color: var(--title-text-color);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: var(--accent-text-color);
+}
+.page-nav .link.current {
+    color: var(--accent-text-color)
+}
+
+/* Contacts */
+
+.contacts-link.header{
+color: var(--primary-text-color);
+
+font-family: inherit;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.contacts-link.header:hover,
+.contacts-link.header:focus 
+{color: var(--accent-text-color);}
+
+
+/* Main */
+.section-title {
+    color:var(--title-text-color) ;
+}
+
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+}
+
+/* Section 1 Head */
+.head {
+    color: var(--additionat-text-color);
+    background-color: var(--background-color-special);
+
+
+}
+.head-main {
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Section 2 advantages */
+.hide {
+    display: none;
+}
+.title {
+    color:var(--title-text-color) ;
+}
+.advantages.list .title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+.advantage-paragraph {
+font-size: 14px;
+line-height: 1.71;
+}
+/* Section 3 */
+.what-we-do {
+    list-style: none
+}
+/* Our team */
+.section.team {
+    background-color:var(--our-team-bg-color) ;
+}
+
+.our-team.list .title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
+.teammate {
+    background-color: var(--background-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--background-color-special);
+}
+.studio-footer {
+    color: var(--additionat-text-color);
+}
+.adress {
+color: var(--additionat-text-color);
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+
+}
+.contacts-link.footer {
+color: var(--footer-adress-color);
+
+font-size: 14px;
+line-height: 1.71;
+font-family: inherit;
+letter-spacing: 0.03em;
+}
+.contacts-link, .link, .logo {
+    text-decoration: none;
+}
+.contacts-link.footer:hover,
+.contacts-link.footer:focus {
+    color: var(--accent-text-color);
+}
+/* Button */
+.button {
+    color: var(--additionat-text-color);
+    background-color: var(--accent-text-color);
+    cursor: pointer;
+}
+
+.button.primary{
+    color: var(--additionat-text-color);
+    background-color: var(--accent-text-color);
+    border: none;
+    text-decoration: none;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,88;
+}
+.button.primary:hover {
+    background-color:var(--primary-botton-hover) ;
+}
+
+/* Portfolio */
+
+.projects.list .project-items {
+    text-decoration: none;
+}
+
+.projects.list .title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.projects.list p {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+.button.selection {
+color: var(--title-text-color);
+background-color: var(--portfolio-button-background);
+
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+border: none;
+}
+
+.button.selection:hover,
+.button.selection:focus {
+    background-color: var(--accent-text-color);
+    color: var(--additionat-text-color);
+}
