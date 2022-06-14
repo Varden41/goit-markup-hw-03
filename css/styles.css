@@ -9,6 +9,7 @@
     --primary-botton-hover :#188CE8;
     --our-team-bg-color :#F5F4FA;
     --footer-adress-color :rgba(100%, 100%, 100%, 60%);
+    --bottom-border-header :#ECECEC;
 }
 
 /* Body */
@@ -22,9 +23,22 @@ h1,h2,h3,ul,p {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
 }
-
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /* Header */
+.header {
+    border-bottom:var(--bottom-border-header);
+}
 .logo {
     color: var(--accent-text-color);
     font-family: 'Raleway',sans-serif;
@@ -42,6 +56,11 @@ h1,h2,h3,ul,p {
 }
 
 /* Page-nav */
+.container.nav {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+}
 .page-nav .link {
     color: var(--title-text-color);
 
@@ -94,8 +113,8 @@ text-align: center;
     color: var(--additionat-text-color);
     background-color: var(--background-color-special);
     text-align: center;
-    width: 1600px;
-    height: 600px;
+
+
 }
 .head-main {
     font-family: inherit;
@@ -107,9 +126,8 @@ text-align: center;
     margin-bottom: 30px;
 }
 .container.head {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 /* Section 2 advantages */
@@ -118,35 +136,52 @@ text-align: center;
 }
 .title {
     color:var(--title-text-color) ;
-    margin-bottom: 10px;
+
 }
 .advantages.list .title {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
+margin-bottom: 10px;
 }
 .advantage-paragraph {
 font-size: 14px;
 line-height: 1.71;
 }
-/* Section 3 */
+
+
+/* Section 3 what we do */
+.section.our-work {
+    padding-top: 0px;
+}
 .what-we-do {
     list-style: none
 }
+
 /* Our team */
 .section.team {
     background-color:var(--our-team-bg-color) ;
+}
+.teammate {
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .our-team.list .title {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
+margin-bottom: 10px;
 }
 .teammate {
     background-color: var(--background-color);
 }
+.team-member {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+}
+
 
 /* Footer */
 .footer {
@@ -160,7 +195,9 @@ color: var(--additionat-text-color);
 font-style: normal;
 font-size: 14px;
 line-height: 1.71;
-
+}
+.footer-adress.list :first-child {
+    margin-bottom: 9px;
 }
 .contacts-link.footer {
 color: var(--footer-adress-color);
@@ -177,6 +214,21 @@ letter-spacing: 0.03em;
 .contacts-link.footer:focus {
     color: var(--accent-text-color);
 }
+.container.bottom {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.container.bottom-nav {
+    display: block;
+} 
+.container.bottom-nav .logo {
+    margin-bottom: 20px;
+    display: block;
+}
+.adress p {
+  margin-bottom: 9px;  
+}
+
 /* Button */
 .button {
     color: var(--additionat-text-color);
@@ -205,10 +257,6 @@ letter-spacing: 0.03em;
     background-color:var(--primary-botton-hover) ;
 }
 
-/* Containers For Index */
-.container.head, .container.our-advantages, .container.our-work {
-    margin-bottom: 94px;
-}
 
 
 
@@ -216,6 +264,14 @@ letter-spacing: 0.03em;
 
 .projects.list .project-items {
     text-decoration: none;
+}
+.project-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid #EEEEEE
 }
 
 .projects.list .title {
@@ -249,4 +305,5 @@ padding: 6px 22px;
 .button.selection:focus {
     background-color: var(--accent-text-color);
     color: var(--additionat-text-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
