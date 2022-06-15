@@ -270,7 +270,7 @@ letter-spacing: 0.03em;
     color: var(--accent-text-color);
 }
 
-.container .logo {
+.container.bottom .logo {
     margin-bottom: 20px;
     display: block;
 }
