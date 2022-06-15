@@ -37,7 +37,7 @@ h1,h2,h3,ul,p {
 
 /* Header */
 .header {
-    border-bottom:var(--bottom-border-header);
+    border-bottom:1px solid var(--bottom-border-header);
 }
 .logo {
     color: var(--accent-text-color);
