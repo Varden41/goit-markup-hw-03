@@ -207,6 +207,7 @@ line-height: 1.71;
 }
 .teammate {
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 4px;
 }
 .teammate img {
     display: block;
